@@ -1,0 +1,57 @@
+:root {
+  --main-bg-color: #e7f1ff; /* Color de fondo principal más claro */
+  --button-bg-color: #007bff; /* Color de fondo para botones */
+  --button-hover-bg-color: #0056b3; /* Color de fondo para botones al pasar el mouse */
+  --text-color: #021d3c; /* Color del texto principal */
+  --link-color: #0645ad; /* Color de los enlaces */
+  --link-hover-color: #0d6efd; /* Color de los enlaces al pasar el mouse */
+  --border-color: #bee5eb; /* Color del borde de los elementos */
+  --header-bg-color: #16c6cc; /* Color de fondo para el encabezado */
+}
+
+body {
+  background-color: var(--main-bg-color);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-color);
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
+
+button {
+  background-color: var(--button-bg-color);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--button-hover-bg-color);
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.header {
+  background-color: var(--header-bg-color);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 0 0 10px 10px;
+}

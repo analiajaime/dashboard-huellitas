@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import image from '../assets/images/LOGO-DB.png';
+import image from '../assets/images/logoHuellitasMinimal.png';
 import ContentWrapper from './ContentWrapper.jsx';
 import ContentRow from './ContentRow.jsx';
 import NotFound from './NotFound.jsx';
@@ -16,11 +16,11 @@ function SideBar() {
     <Router>
       <>
         {/* Sidebar */}
-        <ul className="navbar-nav bg-gradient-secondary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul className="navbar-nav bg-cyan-custom sidebar sidebar-dark accordion" id="accordionSidebar">
           {/* Sidebar - Brand */}
           <Link to="/" className="sidebar-brand d-flex align-items-center justify-content-center">
             <div className="sidebar-brand-icon">
-              <img className="w-100" src={image} alt="HUELLITAS"/>
+              <img className="w-25" src={image} alt="HUELLITAS"/>
             </div>
           </Link>
           {/* Divider */}
@@ -35,7 +35,7 @@ function SideBar() {
           {/* Divider */}
           <hr className="sidebar-divider"/>
           {/* Heading */}
-          <div className="sidebar-heading">Acciones</div>
+          <div className="sidebar-heading text-muted">Acciones</div>
           {/* Nav Item - Tables */}
           <li className="nav-item">
             <Link className="nav-link" to="/TablaChart">
@@ -56,7 +56,7 @@ function SideBar() {
         {/* End of Sidebar */}
 
         <Routes>
-          <Route path="/" element={<ContentWrapper />} />
+          <Route path="/" element={<ContentWrapper />} />{/* Esta es la vista principal */}
           <Route path="/NuestrasCategorias" element={<NuestrasCategorias />} />
           <Route path="/TablaChart" element={<TablaChart />} />
           <Route path="/Ultimas-Cargas" element={<UltimasCargas />} />

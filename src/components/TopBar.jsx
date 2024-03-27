@@ -1,5 +1,5 @@
 import React from "react";
-import foto from "../assets/images/LOGO-DB-menu.png";
+import foto from "../assets/images/logohuellitashorisontal.png";
 
 function TopBar() {
   return (
@@ -22,15 +22,15 @@ function TopBar() {
 
           {/*<!-- Nav Item - User Information -->*/}
           <li className="nav-item dropdown no-arrow">
-            <a className="nav-link dropdown-toggle" href="/" id="userDropdown">
-              <span className="mr-2 d-none d-lg-inline text-gray-600 small">
+            <a className="nav-link dropdown-toggle d-flex justify-content-center align-items-center" href="/" id="userDropdown" style={{ width: "130px", height: "80px" }}>
+              {/* <span className="mr-2 d-none d-lg-inline text-gray-600 small">
                 Huellitas
-              </span>
+              </span> */}
               <img
-                className="img-profile rounded-circle"
+                className="img-profile rounded-circle w-100 h-75"
                 src={foto}
-                alt="Jordan Walke - Creador de React"
-                width="60"
+                alt="logo Huellitas"
+                width="150"
               />
             </a>
           </li>

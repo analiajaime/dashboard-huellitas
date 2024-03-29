@@ -20,8 +20,8 @@ const TotalProductos = () => {
 
   return (
     <div>
-      <h2>Título: Total de productos</h2>
-      <p>El total de productos es: {totalProductos}</p>
+      <h2>Total de productos</h2>
+      <p> {totalProductos} productos en Huellitas</p>
     </div>
   );
 };

@@ -15,7 +15,8 @@ function ContentRowTop(){
 				
 					{/*<!-- Conteo->*/}
 					< TotalProductos/>
-					<ContentRow />
+					
+					{/* <ContentRow /> */}
 					<ContentRowCenter />
 					{/* <Chart /> */}
 	

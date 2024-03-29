@@ -2,6 +2,7 @@ import React from 'react';
 import ContentRowCenter from './ContentRowCenter';
 import ContentRow from './ContentRow';
 import Chart from './Chart';
+import TotalProductos from './Productos';
 
 function ContentRowTop(){
     return(
@@ -12,7 +13,8 @@ function ContentRowTop(){
 						<h1 className="h3 mb-0 text-gray-800">HUELLITAS</h1>
 					</div>
 				
-					{/*<!-- Content Row Movies-->*/}
+					{/*<!-- Conteo->*/}
+					< TotalProductos/>
 					<ContentRow />
 					<ContentRowCenter />
 					{/* <Chart /> */}

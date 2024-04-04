@@ -21,7 +21,7 @@ const Categorias = () => {
 
   return (
     <div className='col-lg-6 mb-4'>
-      <h2>Nuestras categorías</h2>
+      <h2 className='font-weight-bold'>Nuestras categorías</h2>
       {categorias.map(([categoria, count]) => (
         <div key={categoria}>
           <h3>{categoria}</h3>

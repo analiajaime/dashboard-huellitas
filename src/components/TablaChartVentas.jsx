@@ -11,7 +11,7 @@ export const TablaChartVentas = () => {
         {/*<!-- Main Content -->*/}
         <div id="content">
           <TopBar />
-          <ChartVentas/>
+         {/*  <ChartVentas/> */}
           <Footer/>
         </div>
       </div>

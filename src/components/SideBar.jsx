@@ -44,12 +44,12 @@ function SideBar() {
             </Link>
           </li>
           {/* Nav Item - Charts */}
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link className="nav-link" to="/Ultimas-Cargas">
               <i className="fas fa-users"></i>
               <span>Ultimas Cargas</span>
             </Link>
-          </li>
+          </li> */}
           {/* Divider */}
           <hr className="sidebar-divider d-none d-md-block"/>
         </ul>

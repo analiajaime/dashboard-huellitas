@@ -14,7 +14,9 @@ function ContentRow(){
     
 	// traer las api users
 	useEffect(() => {
-		// Petición Asincrónica al montarse el componente
+		//Logeo
+        
+        // Petición Asincrónica al montarse el componente
 		const endpointUsers = 'http://localhost:3002/api/users';
 			fetch(endpointUsers)
 				.then(response => response.json())

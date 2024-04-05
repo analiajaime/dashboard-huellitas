@@ -18,30 +18,40 @@ function ProductsTable() {
   }, []);
 
   return (
-    <div>
-      <h2>Lista de Productos</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>ID</th>
-            <th>Nombre</th>
-            <th>Descripción</th>
-            <th>Categoría</th>
-          </tr>
-        </thead>
-        <tbody>
-          {products.map(product => (
-            <tr key={product.id}>
-              <td>{product.id}</td>
-              <td>{product.name}</td>
-              <td>{product.description}</td>
-              <td>{product.category}</td>
+    <div className="container mt-4">
+      <h2 className="fw-bold">Lista de Productos</h2>
+      <div className="table-responsive" style={{ 
+        boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)',
+        borderRadius: '10px',
+        overflowX: 'auto'
+      }}>
+        <table className="table table-bordered" style={{ minWidth: '1000px' }}> 
+          <thead>
+            <tr>
+              <th className="fw-bold fs-5">ID</th>
+              <th className="fw-bold fs-5">Nombre</th>
+              <th className="fw-bold fs-5">Categoría</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {products.map(product => (
+              <tr key={product.id}>
+                <td>{product.id}</td>
+                <td>{product.name}</td>
+                <td>{product.category}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }
 
 export default ProductsTable;
+
+
+
+
+
+

@@ -20,7 +20,7 @@ const LastUserComponent = () => {
 
   return (
     <div>
-      <h2>Último usuario ingresado</h2>
+      <h2 className="fw-bold">Último usuario ingresado</h2>
       {lastUser ? (
         <div>
           <p>Nombre: {lastUser.username}</p>

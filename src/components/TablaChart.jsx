@@ -13,7 +13,7 @@ export const TablaChart = () => {
         <div id="content">
           <TopBar />
           <ProductsTable />
-          <Chart />
+         {/*  <Chart /> */}
           <Footer/>
         </div>
       </div>

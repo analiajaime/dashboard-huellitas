@@ -6,7 +6,7 @@ function Footer(){
 			<footer className="sticky-footer bg-white">
 				<div className="container my-auto">
 					<div className="copyright text-center my-auto">
-						<span>DERECHOS RESERVADOS &copy; HUELLITASS 2024</span>
+						<span className="fw-bold">DERECHOS RESERVADOS &copy; HUELLITASS 2024</span>
 					</div>
 				</div>
 			</footer>

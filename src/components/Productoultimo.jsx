@@ -26,7 +26,7 @@ function LastProduct() {
 
   return (
     <div className='col-lg-6 mb-4'>
-      <h2>Último producto ingresado</h2>
+      <h2 className="fw-bold">Último producto ingresado</h2>
       <p>{lastProductName}</p>
       <button onClick={handleGoToWeb}>Ir a la web</button>
     </div>

@@ -19,12 +19,12 @@ const LastUserComponent = () => {
   }, []);
 
   return (
-    <div>
-      <h2 className="fw-bold">Último usuario ingresado</h2>
+    <div className='mb-4 mt-4 card card-body shadow pr-md-3'>
+      <h2 className="fw-bold ">Último usuario ingresado</h2>
       {lastUser ? (
         <div>
-          <p>Nombre: {lastUser.username}</p>
-          <p>Email: {lastUser.email}</p>
+          <p className='fs-5'>Nombre: {lastUser.username}</p>
+          <p className='fs-5'>Email: {lastUser.email}</p>
         </div>
       ) : (
         <p>Cargando...</p>

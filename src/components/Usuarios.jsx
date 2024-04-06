@@ -21,7 +21,7 @@ const UserComponent = () => {
     <div>
       <h3 className="fw-bold">Total de usuarios</h3>
       {totalCount !== null ? (
-        <p>{totalCount}</p>
+        <p className='fs-5'>{totalCount}</p>
       ) : (
         <p>Cargando...</p>
       )}

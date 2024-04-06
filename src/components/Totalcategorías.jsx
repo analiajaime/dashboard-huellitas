@@ -23,7 +23,7 @@ function TotalCategories() {
   return (
     <div>
       <h3 className="fw-bold">Total de categorías</h3>
-      <p>{totalCategories}</p>
+      <p className='fs-5'>{totalCategories}</p>
     </div>
   );
 }

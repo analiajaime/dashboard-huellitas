@@ -7,6 +7,7 @@ import UserComponent from './Usuarios'
 import TotalCategories from './Totalcategorías'
 import LastUserComponent from './Usuarioultimo';
 import CombinedComponent from './Resumen';
+import Categorias from './Categorías';
 
 
 function ContentRowTop(){
@@ -14,22 +15,22 @@ function ContentRowTop(){
         <React.Fragment>
 				{/*<!-- Content>*/}
 				<div className="container-fluid">
-					<div className="d-sm-flex aligns-items-center justify-content-between mb-4">
+					{/* <div className="d-sm-flex aligns-items-center justify-content-between mb-4">
 						<h1 className="h3 mb-0 text-gray-800">Huellitas</h1>
-					</div>
+					</div> */}
 				
 					{/*<!-- Conteo->*/}
 					<CombinedComponent/>
 					{/* < TotalCategories />
 					< TotalProductos/>
 					< UserComponent /> */}
-					<div></div>
 					{/* <ContentRow /> */}
 					<ContentRowCenter />
 					{/* <Chart /> */}
-					
-					<LastUserComponent />
-	
+					< Categorias />
+
+					{/* <LastUserComponent />
+	 */}
 				</div>
 				{/*<!--End Content Row Top-->*/}
 

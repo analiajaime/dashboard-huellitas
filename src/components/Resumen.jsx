@@ -5,27 +5,21 @@ import UserComponent from './Usuarios';
 
 const CombinedComponent = () => {
   return (
-    <div className="container d-flex justify-content-center align-items-center">
+    <div   >
       <div className="row">
-        <div className="col-md-4 d-flex">
-          <div className="card shadow d-flex flex-column">
-            <div className="card-body">
-              <TotalCategories />
-            </div>
+        <div className="col-md-3 d-flex">
+          <div className="card card card-body shadow d-flex flex-column">
+            <TotalCategories />
           </div>
         </div>
-        <div className="col-md-4 d-flex">
-          <div className="card shadow d-flex flex-column">
-            <div className="card-body">
+        <div className="col-md-3 d-flex">
+          <div className="card card-body shadow d-flex flex-column">
               <TotalProductos />
-            </div>
           </div>
         </div>
-        <div className="col-md-4 d-flex">
-          <div className="card shadow d-flex flex-column">
-            <div className="card-body">
+        <div className="col-md-3 d-flex">
+          <div className="card card-body  shadow d-flex flex-column">
               <UserComponent />
-            </div>
           </div>
         </div>
       </div>

@@ -20,12 +20,12 @@ const Categorias = () => {
   }, []);
 
   return (
-    <div className='col-lg-6 mb-4'>
+    <div className='col-lg-6 mt-4 card card-body  shadow'>
       <h2 className='font-weight-bold'>Nuestras categorías</h2>
       {categorias.map(([categoria, count]) => (
         <div key={categoria}>
           <h3>{categoria}</h3>
-          <p>Total: {count}</p>
+          <p className='fs-5'>Total: {count}</p>
         </div>
       ))}
     </div>

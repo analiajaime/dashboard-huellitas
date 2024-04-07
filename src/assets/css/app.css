@@ -16,11 +16,11 @@
 
 
 .btn-custom {
-    background-color: #4e73df; /* Color de fondo inicial */
+    background-color: #16c6cc; /* Color de fondo inicial */
     color: white; /* Color del texto */
     transition: background-color 0.3s; /* Transición suave */
 }
 
 .btn-custom:hover {
-    background-color: #16c6cc; /* Color de fondo al hacer hover */
+    background-color: #4e73df; /* Color de fondo al hacer hover */
 }

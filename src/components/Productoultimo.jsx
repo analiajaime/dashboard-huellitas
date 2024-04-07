@@ -28,7 +28,7 @@ function LastProduct() {
     <div className='mt-4 card card-body  shadow'>
       <h2 className="fw-bold ">Último producto ingresado</h2>
       <p className='fs-5'>{lastProductName}</p>
-      <button className ='col-lg-6 bg-cyan-custom '  onClick={handleGoToWeb}>Ir a la web</button>
+      <button className ='btn btn-custom'  onClick={handleGoToWeb}>Ir a la web</button>
     </div>
   );
 }

@@ -13,3 +13,14 @@
 .bg-cyan-custom {
     background-color: #16c6cc; /* Este es un ejemplo de un color azul cian, puedes ajustarlo según tu preferencia */
 }
+
+
+.btn-custom {
+    background-color: #4e73df; /* Color de fondo inicial */
+    color: white; /* Color del texto */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+.btn-custom:hover {
+    background-color: #16c6cc; /* Color de fondo al hacer hover */
+}

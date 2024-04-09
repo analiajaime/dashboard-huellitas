@@ -25,31 +25,7 @@ function NavHeader () {
                         </a>
                     </li>
 
-
-                    {/* Miguel */}
-                    {/* <li className="nav-item dropdown no-arrow">
-                        <a className="nav-link dropdown-toggle" href="/" id="userDropdown">
-                            <span className="mr-2 d-none d-lg-inline text-gray-600 medium" Text style={{fontStyle: 'italic', fontWeight: 'bold'}}>Luis Rufino</span>
-                            <img className="img-profile rounded-circle" src="images/user-1601127716654.jpg" width="60" alt=""/>
-                        </a>
-                    </li> */}
-
-
-                    {/* Galo */}
-                    {/* <li className="nav-item dropdown no-arrow">
-                        <a className="nav-link dropdown-toggle" href="/" id="userDropdown">
-                            <span className="mr-2 d-none d-lg-inline text-gray-600 medium" Text style={{fontStyle: 'italic', fontWeight: 'bold'}}>Babart</span>
-                            <img className="img-profile rounded-circle" src="images/user-1599802507754.jpg" width="60" alt=""/>
-                        </a>
-                    </li> */}
-
-                    {/* Agustin */}
-                    {/* <li className="nav-item dropdown no-arrow">
-                        <a className="nav-link dropdown-toggle" href="/" id="userDropdown">
-                            <span className="mr-2 d-none d-lg-inline text-gray-600 medium" Text style={{fontStyle: 'italic', fontWeight: 'bold'}}>Random</span>
-                            <img className="img-profile rounded-circle" src="images/user_3.png" width="60" alt=""/>
-                        </a>
-                    </li> */}
+                 
 
                 </ul>
 

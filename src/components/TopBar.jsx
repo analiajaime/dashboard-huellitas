@@ -22,7 +22,7 @@ function TopBar() {
 
           {/*<!-- Nav Item - User Information -->*/}
           <li className="nav-item dropdown no-arrow">
-            <a className="nav-link dropdown-toggle d-flex justify-content-center align-items-center" href="/" id="userDropdown" style={{ width: "130px", height: "80px" }}>
+            <a className="nav-link dropdown-toggle d-flex justify-content-center align-items-center" href="http://localhost:3456/" id="userDropdown" style={{ width: "130px", height: "80px" }}>
               {/* <span className="mr-2 d-none d-lg-inline text-gray-600 small">
                 Huellitas
               </span> */}

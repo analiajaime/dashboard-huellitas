@@ -21,7 +21,7 @@ function LastProduct() {
   }, []);
 
   const handleGoToWeb = () => {
-    window.location.href = 'http://localhost:3456/products/detail/39';
+    window.location.href = 'http://localhost:3456/products/detail/93';
   };
 
   return (
